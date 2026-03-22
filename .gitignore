@@ -1,0 +1,21 @@
+# App meta repo .gitignore
+# Only track app-level config, not nested component repos
+
+# Nested component repositories (tracked separately)
+backend/
+docs/
+frontend/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
